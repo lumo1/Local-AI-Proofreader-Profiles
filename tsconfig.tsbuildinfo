@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/createprofileview.tsx","./src/noprofilesview.tsx","./src/preparedprofiles.tsx","./src/profilepreviewmodal.tsx","./src/tabinfo.tsx","./src/tabprofiles.tsx","./src/tabproofreader.tsx","./src/tabsettings.tsx","./src/chrome-extensions.d.ts","./src/main.tsx","./src/vite-env.d.ts","./src/utils/promptutils.ts"],"errors":true,"version":"5.6.3"}

@@ -1,0 +1,188 @@
+{
+  "profiles": [
+    {
+      "id": "motivator_001",
+      "name": "The Motivator",
+      "description": "Positive, empowering, and enthusiastic. Encourages action and inspires confidence.",
+      "key_attributes": {
+        "formality": "Medium",
+        "tone": "Positive and Empowering",
+        "complexity": "Medium"
+      },
+      "examples": [
+        "Believe you can, and you're halfway there.",
+        "Your potential is endless. Go do what you were created to do."
+      ],
+      "transformations": {
+        "example_1": "I'm thrilled to announce my new journey at Lumo Company! With dedication and hard work, I’ll strive to create revolutionary AI tools.",
+        "example_2": "This app has immense potential to change the game in Google's hackathon. Believe in its success!",
+        "example_3": "Don’t let frustration stop you! Turn setbacks into opportunities to grow and excel."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #f7b42c, #fc575e)"
+    },
+    {
+      "id": "techguru_001",
+      "name": "The Tech Guru",
+      "description": "Logical, instructional, and helpful. Communicates complex information clearly and concisely.",
+      "key_attributes": {
+        "formality": "Medium",
+        "tone": "Logical and Helpful",
+        "complexity": "Medium"
+      },
+      "examples": [
+        "To optimize your system, ensure all components are compatible.",
+        "Effective coding practices lead to efficient software."
+      ],
+      "transformations": {
+        "example_1": "Starting at Lumo Company, where my goal is to create efficient AI tools through clear strategies and dedication.",
+        "example_2": "This app’s local AI capability offers strong potential to succeed in Google’s hackathon.",
+        "example_3": "To avoid translation errors, a systematic approach should replace the inefficiency of manual checks."
+      },
+      "features": {
+        "showAdvancedDetails": true
+      },
+      "color-gradient": "linear-gradient(to right, #00c6ff, #0072ff)"
+    },
+    {
+      "id": "academic_001",
+      "name": "The Academic",
+      "description": "Neutral, objective, and authoritative. Uses technical jargon and structured paragraphs.",
+      "key_attributes": {
+        "formality": "High",
+        "tone": "Objective and Neutral",
+        "complexity": "High"
+      },
+      "examples": [
+        "Research indicates a significant correlation between variables.",
+        "The study's findings contribute to the existing body of knowledge."
+      ],
+      "transformations": {
+        "example_1": "I am pleased to report that I have joined Lumo Company. My efforts are directed at producing innovative and impactful AI tools.",
+        "example_2": "This application exhibits promising potential to perform exceptionally in Google's hackathon, given its advanced AI integration.",
+        "example_3": "Frequent errors indicate a need for robust validation systems in linguistic applications."
+      },
+      "features": {
+        "showAdvancedDetails": true
+      },
+      "color-gradient": "linear-gradient(to right, #667eea, #764ba2)"
+    },
+    {
+      "id": "storyteller_001",
+      "name": "The Storyteller",
+      "description": "Engaging, imaginative, and warm. Brings the reader into the world of the text.",
+      "key_attributes": {
+        "formality": "Medium",
+        "tone": "Imaginative and Warm",
+        "complexity": "Varied"
+      },
+      "examples": [
+        "In a land far away, dreams become reality.",
+        "Every sunset holds the promise of a new dawn."
+      ],
+      "transformations": {
+        "example_1": "Once upon a time, I worked tirelessly to land a role at Lumo Company, where dreams of crafting amazing AI tools are coming true.",
+        "example_2": "This app’s journey could lead to greatness at Google’s hackathon, with the power of local AI lighting the way.",
+        "example_3": "Frustration is a villain, but a hero emerges—a tool to end errors and bring clarity to our words."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #ff9a9e, #fad0c4)"
+    },
+    {
+      "id": "journalist_001",
+      "name": "The Journalist",
+      "description": "Neutral to persuasive, with urgency. Reports facts succinctly, using active voice.",
+      "key_attributes": {
+        "formality": "Medium",
+        "tone": "Neutral and Persuasive",
+        "complexity": "Low"
+      },
+      "examples": [
+        "Authorities have confirmed the incident occurred last night.",
+        "Experts suggest a new approach may be necessary."
+      ],
+      "transformations": {
+        "example_1": "Breaking: I’ve joined Lumo Company to develop advanced AI tools after months of effort.",
+        "example_2": "This app is a strong contender for Google’s hackathon due to its local AI capabilities.",
+        "example_3": "Errors in translation continue to frustrate users, highlighting the need for efficient solutions."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #43cea2, #185a9d)"
+    },
+    {
+      "id": "poet_001",
+      "name": "The Poet",
+      "description": "Emotional, introspective, and artistic. Explores deeper meanings with metaphors.",
+      "key_attributes": {
+        "formality": "Low to High",
+        "tone": "Poetic and Symbolic",
+        "complexity": "Varied"
+      },
+      "examples": [
+        "The whispering winds carry tales untold.",
+        "In the shadows of the night, dreams take flight."
+      ],
+      "transformations": {
+        "example_1": "In the halls of Lumo, a journey begins—a path forged by dedication to AI’s creative spark.",
+        "example_2": "The hackathon looms, and with local AI, a symphony of potential awaits Google’s stage.",
+        "example_3": "A fractured word, a marred thought—errors rob meaning. Let us craft clarity and restore the harmony of expression."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #ff758c, #ff7eb3)"
+    },
+    {
+      "id": "formalist_001",
+      "name": "The Formalist",
+      "description": "Reserved, professional, and serious. Maintains strict grammatical precision.",
+      "key_attributes": {
+        "formality": "High",
+        "tone": "Professional and Serious",
+        "complexity": "High"
+      },
+      "examples": [
+        "Please find the enclosed document for your perusal.",
+        "It is imperative that all protocols are strictly adhered to."
+      ],
+      "transformations": {
+        "example_1": "It is with great satisfaction that I announce my new position at Lumo Company, where I shall endeavor to develop exceptional AI tools.",
+        "example_2": "This application’s prospects in Google's hackathon are noteworthy, given its strong local AI framework.",
+        "example_3": "Consistently avoiding linguistic errors requires rigorous tools, not manual correction processes."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #434343, #000000)"
+    },
+    {
+      "id": "critic_001",
+      "name": "The Critic",
+      "description": "Analytical, sharp, and occasionally sarcastic. Uses comparisons and critiques.",
+      "key_attributes": {
+        "formality": "Medium",
+        "tone": "Sharp and Witty",
+        "complexity": "Medium to High"
+      },
+      "examples": [
+        "One could argue that the solution is less than ideal.",
+        "It's not the first time such an oversight has occurred."
+      ],
+      "transformations": {
+        "example_1": "Joining Lumo Company? Impressive, if they truly value hard work and groundbreaking AI.",
+        "example_2": "This app may win Google’s hackathon, assuming it meets its lofty claims of potential.",
+        "example_3": "Copying and pasting for errors? Antiquated! A proper tool is overdue for preventing such amateur mistakes."
+      },
+      "features": {
+        "showAdvancedDetails": false
+      },
+      "color-gradient": "linear-gradient(to right, #fd746c, #ff9068)"
+    }
+  ]
+}

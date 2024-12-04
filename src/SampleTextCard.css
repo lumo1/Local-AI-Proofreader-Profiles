@@ -1,0 +1,41 @@
+/* src/components/SampleTextCard.css */
+
+.text-container {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    min-height: 60px; /* Adjust as needed */
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.text-container:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light overlay effect on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 4px;
+}
+
+.text-container:hover .overlay {
+    opacity: 1;
+}
+
+.edit-button {
+    /* Customize the Edit button size and appearance */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

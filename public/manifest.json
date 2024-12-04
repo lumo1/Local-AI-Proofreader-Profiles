@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Local AI Proofreader Profiles",
+  "description": "Extension uses local AI to proofread and refine text, with the unique ability to create multiple profiles for personalized writing preferences.",
+  "author": "lukasz.modzelewski.pl@gmail.com",
+  "permissions": ["sidePanel", "storage", "aiLanguageModelOriginTrial"],
+  "trial_tokens": [
+    "As/pmmarfmf+WPt5Jq3m1Ucc9BzoLoUp/Y5RW0zJIyJ9gVMHuzD68IMW/y096zhJyAa0lIqr9UaC4f7p46J8+gMAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vbm5vbWNnYmFsaWJuY2JnZmlta2pjamJkZ21raWduaWsiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"
+  ],
+  "minimum_chrome_version": "131",
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Open Proofreader Interface"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
